@@ -31,7 +31,7 @@ Source: <a href='https://github.com/Menu22/tgmoviebot'>GitHub - Click here 👈<
 - <a href='https://t.me/SlTvsChat'>SLTV Group</a>
 
 <b>SUPPORT BOT</b>
-- <a href='https://t.me/Slfilmhouse'>Jos Movie Club</a>"""
+- <a href='https://t.me/Slfilmhouse'>SLTV Movie Club</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -108,7 +108,7 @@ You can also customise the contents of your message with contextual data. For ex
 
 <b>Select a filters type Below:</b>"""
 
-    PASTE_TXT = """Help: <b>Paste</b>
+    PASTE_TXT = """ <b>Paste</b>
 
 Paste some texts or documents on a website!
 
@@ -121,7 +121,7 @@ Paste some texts or documents on a website!
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
-    TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
+    TGRAPH_TXT = """ <b>TGraph & Paste</b>
 
 Do as you wish with telegra.ph module!
 
@@ -133,7 +133,7 @@ Do as you wish with telegra.ph module!
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
-    INFO_TXT = """Help: <b>Information</b>
+    INFO_TXT = """ <b>Information</b>
 
 Get information about something!
 
@@ -147,7 +147,7 @@ Get information about something!
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
-    TORRENT_TXT = """Help: <b>Torrent Search</b>
+    TORRENT_TXT = """ <b>Torrent Search</b>
 
 <b>Commands and Usage:</b>
 • /torrent or /tor <movie name>: Get Your Torrent Link From Various Resource.
@@ -157,7 +157,7 @@ Get information about something!
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
-    GTRANS_TXT = """Help: <b>Google Translator</b>
+    GTRANS_TXT = """ <b>Google Translator</b>
 
 Translate texts to a specific language!
 
@@ -182,7 +182,7 @@ Search many things without leaving telegram!
 • More search tools can be found on inline.
 • Those commands works on both pm and group."""
 
-    PURGE_TXT = """Help: <b>Purge</b>
+    PURGE_TXT = """ <b>Purge</b>
 
 Need to delete lots of messages? That's what purges are for!
 
@@ -194,7 +194,7 @@ Need to delete lots of messages? That's what purges are for!
 • These commands works on group.
 • These commands can be used by Only admin."""
 
-    RESTRIC_TXT = """Help: <b>Restrictions</b>
+    RESTRIC_TXT = """ <b>Restrictions</b>
 
 Some people need to be publicly banned; spammers, annoyances, or just trolls.
 
@@ -216,7 +216,7 @@ This module allows you to do that easily, by exposing some common actions, so ev
 • These commands works on group.
 • These commands can be used by Only admin."""
 
-    PIN_MESSAGE_TXT = """Help: <b>Pin Message</b>
+    PIN_MESSAGE_TXT = """ <b>Pin Message</b>
 
 All the pin related commands can be found here; keep your chat up to date on the latest news with a simple pinned message!
 
@@ -247,7 +247,7 @@ This module only works for my admins
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
 
-    STATUS_TXT = """<b>Total Files:</b> <code>{}</code>
+    STATUS_TXT = """Help: <b>Total Files:</b> <code>{}</code>
 <b>Total Users:</b> <code>{}</code>
 <b>Total Chats:</b> <code>{}</code>
 <b>Used Storage:</b> <code>{}</code> MiB
@@ -259,7 +259,7 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
 
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
-    MEMES_TXT = """Help: <b>Memes</b>
+    MEMES_TXT = """ <b>Memes</b>
 
 Some dank memes for fun or whatever!
 
@@ -275,7 +275,7 @@ Some dank memes for fun or whatever!
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
-    URL_SHORTNER_TXT = """Help: <b>URL Shortner</b>
+    URL_SHORTNER_TXT = """ <b>URL Shortner</b>
 
 Some URLs is Shortner
 
@@ -290,7 +290,7 @@ Some URLs is Shortner
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
-    TTS_TXT = """Help: <b>Text to Speech</b>
+    TTS_TXT = """ <b>Text to Speech</b>
 
 A module to convert text to voice with language support.
 
@@ -302,7 +302,7 @@ A module to convert text to voice with language support.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
-    MUSIC_TXT = """Help: <b>Music</b>
+    MUSIC_TXT = """ <b>Music</b>
 
 Music download modules, for those who love music.
 
@@ -319,7 +319,7 @@ Music download modules, for those who love music.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
-    PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
+    PASSWORD_GEN_TXT = """ <b>Password Generator</b>
 
 There Is Nothing To Know More. Send Me The Limit Of Your Password.
 - I Will Give The Password Of That Limit.
@@ -335,7 +335,7 @@ There Is Nothing To Know More. Send Me The Limit Of Your Password.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
-    SHARE_TXT = """Help: <b>Sharing Text Maker</b>
+    SHARE_TXT = """ <b>Sharing Text Maker</b>
 
 a bot to create a link to share text in the telegram.
 
@@ -357,7 +357,7 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}"""
 
-    ZOMBIES_TXT = """Help: <b>Zombies</b>
+    ZOMBIES_TXT = """ <b>Zombies</b>
 
 <b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
 
