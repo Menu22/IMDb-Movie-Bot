@@ -3,16 +3,20 @@ class Script(object):
 
 My name is <a href=https://t.me/{}>{}</a>!
 
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
+<b>හලෝ හලෝ දැන් ඔයාට ලේසියෙන් අපෙන් සීරිස් ෆිල්ම් හොයාගන්න පුලුවන්.
 
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
+💋 කරන්න තියෙන්නේ පහල search ටැබ් එක ක්ලික් කරලා ඔයාට ඕනා ෆිල්ම් එකේ හෝ සීරිස් එකේ හරි නම ටයිප් කරන එක විතරයි.
+
+😱 හෝ හෝ.. බොට් යූස් කරන්න කලින් මතක් කරලා අපේ අප්ඩෙට් චැනල් එකට සෙට් වෙන්න නැත්නම් බොටා වැඩ නෑ හොදේ. :)
+
+🐝 ඔයාට ඕනේනම් මාව ඔයාගේ ගෲප් එකට ඇඩ් කරලා ඇඩ්මින් දෙන්න. 🤤🇱🇰..</b>"""
 
     HELP_TXT = """Hey {}
 
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/zautekm'>Zaute Km</a>
+➥ Creator: <a href='https://t.me/mangersltv'>Menu Boy</a>
 ➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
 ➥ Language: Python 𝟹
 ➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
@@ -21,13 +25,13 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+Source: <a href='https://github.com/Menu22/IMDb-Movie-Bot - Click here 👈</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
+- <a href='https://t.me/SlTvsChat'>Jos Projects</a>
 
-<b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
+<b>SUPPORT BOT</b>
+- <a href='https://t.me/info_feedbackSltv_bot'>Jos Movie Club</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
