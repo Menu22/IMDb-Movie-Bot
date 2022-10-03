@@ -25,13 +25,13 @@ My name is <a href=https://t.me/{}>{}</a>!
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+Source: <a href='https://github.com/Menu22/tgmoviebot'>GitHub - Click here 👈</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/SlTvsChat'>Jos Projects</a>
+- <a href='https://t.me/SlTvsChat'>SLTV Group</a>
 
 <b>SUPPORT BOT</b>
-- <a href='https://t.me/info_feedbackSltv_bot'>Jos Movie Club</a>"""
+- <a href='https://t.me/Slfilmhouse'>Jos Movie Club</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
