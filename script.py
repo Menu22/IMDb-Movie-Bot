@@ -25,7 +25,7 @@ My name is <a href=https://t.me/{}>{}</a>!
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://github.com/Menu22/IMDb-Movie-Bot - Click here 👈</a>
+Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
 
 <b>DEVS:</b>
 - <a href='https://t.me/SlTvsChat'>Jos Projects</a>
