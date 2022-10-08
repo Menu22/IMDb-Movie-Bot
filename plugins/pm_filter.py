@@ -479,31 +479,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Connect', callback_data='coct'),
             InlineKeyboardButton('Filters', callback_data='auto_manual'),
-            InlineKeyboardButton('G-Trans', callback_data='gtrans'),
+            InlineKeyboardButton('', callback_data='gtrans'),
             ],[
             InlineKeyboardButton('Info', callback_data='info'),
             InlineKeyboardButton('Inline', callback_data='inline'),
-            InlineKeyboardButton('Memes', callback_data='memes'),
+            InlineKeyboardButton('', callback_data='memes'),
             ],[
-            InlineKeyboardButton('Paste', callback_data='paste'),
-            InlineKeyboardButton('Pin', callback_data='pin'),
-            InlineKeyboardButton('Purge', callback_data='purge'),
+            InlineKeyboardButton('', callback_data='paste'),
+            InlineKeyboardButton('', callback_data='pin'),
+            InlineKeyboardButton('', callback_data='purge'),
             ],[
-            InlineKeyboardButton('Restrict', callback_data='restric'),
+            InlineKeyboardButton('', callback_data='restric'),
             InlineKeyboardButton('Search', callback_data='search'),
-            InlineKeyboardButton('Sudo', callback_data='admin'),
+            InlineKeyboardButton('', callback_data='admin'),
             ],[
-            InlineKeyboardButton('Share-Text', callback_data='sharetext'),
-            InlineKeyboardButton('TTS', callback_data='tts'),
-            InlineKeyboardButton('Torrent', callback_data='torrent'),
+            InlineKeyboardButton('', callback_data='sharetext'),
+            InlineKeyboardButton('', callback_data='tts'),
+            InlineKeyboardButton('', callback_data='torrent'),
             ],[
-            InlineKeyboardButton('TGraph', callback_data='tgraph'),
-            InlineKeyboardButton('URL Short', callback_data='shortner'),
-            InlineKeyboardButton('YouTube', callback_data='music'),
+            InlineKeyboardButton('', callback_data='tgraph'),
+            InlineKeyboardButton('', callback_data='shortner'),
+            InlineKeyboardButton('', callback_data='music'),
             ],[
-            InlineKeyboardButton('Zombies', callback_data='zombies'),
+            InlineKeyboardButton('', callback_data='zombies'),
             InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('Adult Bot 🔞', url='https://t.me/AdultSearchXBot')
+            InlineKeyboardButton('', url='https://t.me/AdultSearchXBot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -513,7 +513,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⭕ Status', url='https://t.me/josprojects/221'),
+            InlineKeyboardButton('⭕ Status', url=''),
             InlineKeyboardButton('Source 🪤', callback_data='source')
             ],[
             InlineKeyboardButton('❓ How to Use ❓', callback_data='help')
