@@ -613,7 +613,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "paste":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help'),
             InlineKeyboardButton('Close ✗', callback_data='close_data')
@@ -625,7 +625,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "tgraph":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -636,7 +636,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "info":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -658,7 +658,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "gtrans":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help'),
             InlineKeyboardButton('lang codes', url='https://cloud.google.com/translate/docs/languages')
@@ -681,7 +681,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "zombies":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -692,7 +692,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "purge":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -703,7 +703,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "restric":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -725,7 +725,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "shortner":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -736,7 +736,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "tts":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -747,7 +747,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "pin":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -758,7 +758,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "music":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -769,7 +769,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "genpassword":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -780,7 +780,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "sharetext":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
@@ -791,7 +791,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "fillings":
+    elif query.data == "":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='manualfilter')
         ]]
