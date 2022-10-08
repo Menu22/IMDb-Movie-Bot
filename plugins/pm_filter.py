@@ -460,7 +460,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('', callback_data='help'),
             InlineKeyboardButton('About ⭕️', callback_data='about')
             ],[
-            InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍 Search Now 🔍', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('⭕️ Updates', url='https://t.me/tvsList'),
             InlineKeyboardButton('Movie Channel ⭕️', url='https://t.me/Slfilmhouse')
