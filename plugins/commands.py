@@ -48,9 +48,9 @@ async def start(client, message):
             InlineKeyboardButton('', callback_data='help'),
             InlineKeyboardButton('About ⭕️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍 Search 🔍', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍 Search Now 🔍', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ Updates', url='https://t.me/tvsList'),
+            InlineKeyboardButton('👁️‍🗨️ Updates 👁️‍', url='https://t.me/tvsList'),
             InlineKeyboardButton('Movie Channel ⭕️', url='https://t.me/Slfilmhouse')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
@@ -96,9 +96,9 @@ async def start(client, message):
             InlineKeyboardButton('', callback_data='help'),
             InlineKeyboardButton('About ⭕️', callback_data='about')
             ],[
-            InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍 Search Now 🔍', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ Updates', url='https://t.me/tvsList'),
+            InlineKeyboardButton('👁️‍🗨️ Updates 👁️‍', url='https://t.me/tvsList'),
             InlineKeyboardButton('Movie Channel ⭕️', url='https://t.me/Slfilmhouse')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
